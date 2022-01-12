@@ -15,4 +15,4 @@ def bfs_paths(graph, start, goal):
             else:
                 queue.append((next, path + [next]))
 
-list(bfs_paths(graph, 'A', 'F'))
+print(list(bfs_paths(graph, 'A', 'F')))

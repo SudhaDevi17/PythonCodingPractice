@@ -25,3 +25,7 @@ class Solution:
             for x in range(coin, amount + 1):
                 dp[x] += dp[x - coin]
         return dp[amount]
+
+
+s = Solution()
+print(s.change(5 , [2,3,6]))
